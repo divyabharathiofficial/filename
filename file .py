@@ -1,0 +1,5 @@
+print("PROGRAM TO ACCEPT A FILENAME FROM THE USER AND PRINT THE EXTENTION OF THAT FILE")
+print("--------------------------------------------------------------------------------")
+fn=input("ENTER FILE NAME : ")
+f=fn.split(".")
+print("\nEXTENTION OF THE FILE NAME IS : "+ f[-1])
